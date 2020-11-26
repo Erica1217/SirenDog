@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:src="@drawable/ic_dog" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:gravity="center"
+            android:text="강아지 앱 정보"
+            android:textColor="#2f5496"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:gravity="center"
+            android:text="개발자 : 김유진, 김도훈, 이서영, 정해도"
+            android:textColor="#2f5496"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="자료 출처 : 경찰청"
+            android:textColor="#2f5496"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
